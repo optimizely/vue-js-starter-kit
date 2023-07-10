@@ -1,5 +1,5 @@
 {
-  "name": "VueJS Starter Kit",
+  "name": "Optimizely VueJS Starter Kit",
 
   "build": {
     "dockerfile": "Dockerfile",
