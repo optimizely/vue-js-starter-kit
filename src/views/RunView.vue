@@ -1,9 +1,7 @@
 <template>
   <div class="run">
     <h1>Experiment Output</h1>
-    <p>
-      [Loop through the results]
-    </p>
+    <p>[Loop through the results]</p>
   </div>
 </template>
 

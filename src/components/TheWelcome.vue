@@ -14,8 +14,12 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Quick Start Documentation</template>
 
     We'll be following much of the
-    <a href="https://docs.developers.optimizely.com/feature-experimentation/docs/react-quickstart" target="_blank"
-      rel="noopener">Optimizely React quick start documentation</a>
+    <a
+      href="https://docs.developers.optimizely.com/feature-experimentation/docs/react-quickstart"
+      target="_blank"
+      rel="noopener"
+      >Optimizely React quick start documentation</a
+    >
     as a basis for this example app.
   </WelcomeItem>
 
@@ -32,7 +36,7 @@ import SupportIcon from './icons/IconSupport.vue'
     </p>
 
     <p>
-      More instructions are available in 
+      More instructions are available in
       <code>README</code>
       document.
     </p>
@@ -45,9 +49,8 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Get Started</template>
 
     <p>
-      Once you have your Optimizely SDK key, you can add it to the 
-      <code>src/App.vue</code>.
-      Then, click the Run nav link 👈 to see the example in action.
+      Once you have your Optimizely SDK key, you can add it to the
+      <code>src/App.vue</code>. Then, click the Run nav link 👈 to see the example in action.
     </p>
   </WelcomeItem>
 
@@ -57,11 +60,16 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Optimizely Support</template>
 
-    If you have any qusetions about implementing Feature Experimentation, reach out to your Optimizely representative. You
-    can also check out the
-    the
-    <a href="https://docs.developers.optimizely.com/feature-experimentation/docs" target="_blank" rel="noopener">SDK
-      documentation</a>
+    If you have any qusetions about implementing Feature Experimentation, reach out to your
+    Optimizely representative. You can also check out the the
+    <a
+      href="https://docs.developers.optimizely.com/feature-experimentation/docs"
+      target="_blank"
+      rel="noopener"
+      >SDK documentation</a
+    >
     or GOTO our
-    <a href="https://support.optimizely.com/hc/en-us" target="_blank" rel="noopener">support site</a>.
-  </WelcomeItem></template>
+    <a href="https://support.optimizely.com/hc/en-us" target="_blank" rel="noopener">support site</a
+    >.
+  </WelcomeItem>
+</template>
