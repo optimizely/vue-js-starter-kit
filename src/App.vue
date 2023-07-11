@@ -1,6 +1,24 @@
 <script setup lang="ts">
+import { provide } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import optimizelySdk from '@optimizely/optimizely-sdk'
+
+const optimizelyClient = optimizelySdk.createInstance({ sdkKey: 'K4UmaV5Pk7cEh2hbcjgwe' })
+if (optimizelyClient === null) {
+  throw new Error('Optimizely instance is null')
+}
+
+optimizelyClient.onReady().then(() => {    
+  console.info('optimizelyClient isValidInstance(): ', optimizelyClient.isValidInstance())
+
+  if (!optimizelyClient.isValidInstance()) {
+    console.log('Optimizely client invalid.')
+    return;
+  }
+})
+
+provide("optimizeClient", optimizelyClient)
 </script>
 
 <template>
