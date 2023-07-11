@@ -22,17 +22,18 @@ const props = defineProps({
 <style scoped>
 div {
     margin: 0px;
+    font-family: monospace;
 }
 b {
     font-weight: bold;
 }
 .userId {
-    color: #ff0000;
+    color: #FC7F10;
 }
 .variation {
-    color: #0000ff;
+    color: #861DFF;
 }
 .sortMethod {
-    color: #00ff00;
+    color: #00CCFF;
 }
 </style>

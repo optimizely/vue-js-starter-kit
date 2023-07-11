@@ -67,7 +67,6 @@ for (let i = 0; i < 10; i++) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: monospace;
   }
 }
 </style>
