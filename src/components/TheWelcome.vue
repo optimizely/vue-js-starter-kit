@@ -2,8 +2,7 @@
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
+import GetStartedIcon from './icons/IconGetStarted.vue'
 import SupportIcon from './icons/IconSupport.vue'
 </script>
 
@@ -12,11 +11,12 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>Quick Start Documentation</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    We'll be following much of the
+    <a href="https://docs.developers.optimizely.com/feature-experimentation/docs/react-quickstart" target="_blank"
+      rel="noopener">Optimizely React quick start documentation</a>
+    as a basis for this example app.
   </WelcomeItem>
 
   <WelcomeItem>
@@ -25,62 +25,43 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Tooling</template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>.
+    <p>
+      We've created this project using the standard Vue tooling and wrapped it in a
+      <a href="https://containers.dev/" target="_blank" rel="noopener">Dev Container</a>
+      for use with VS Code.
+    </p>
 
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    <p>
+      More instructions are available in 
+      <code>README</code>
+      document.
+    </p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <GetStartedIcon />
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>Get Started</template>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
-    <template #heading>Community</template>
-
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    <p>
+      Once you have your Optimizely SDK key, you can add it to the 
+      <code>src/App.vue</code>.
+      Then, click the Run nav link 👈 to see the example in action.
+    </p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
+    <template #heading>Optimizely Support</template>
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
-</template>
+    If you have any qusetions about implementing Feature Experimentation, reach out to your Optimizely representative. You
+    can also check out the
+    the
+    <a href="https://docs.developers.optimizely.com/feature-experimentation/docs" target="_blank" rel="noopener">SDK
+      documentation</a>
+    or GOTO our
+    <a href="https://support.optimizely.com/hc/en-us" target="_blank" rel="noopener">support site</a>.
+  </WelcomeItem></template>

@@ -1,14 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="run">
+    <h1>Experiment Output</h1>
+    <p>
+      [Loop through the results]
+    </p>
   </div>
 </template>
 
 <style>
 @media (min-width: 1024px) {
-  .about {
+  .run {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
 }
