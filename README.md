@@ -1,6 +1,6 @@
 # Optimizely Vue.js Starter Kit
 
-The goal of this repo is to get you to a running Vue app with Optimizely as fast as possible.
+The goal of this repo is to get you to a running [Vue](https://vuejs.org/) app with Optimizely as fast as possible.
 
 ## Prerequisites
 
@@ -16,14 +16,13 @@ To get started with the application, follow these steps:
 
 1. Open Visual Studio Code and press `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) to open the command palette. Type "Dev Containers: Clone Repository in Container Volume" and press Enter. 
 2. Enter the repository address `https://github.com/optimizely/vue-js-starter-kit`.
-3. If asked, choose the `main` branch.
-4. Once the repository is cloned and opened in the dev container, run the project by opening a terminal in Visual Studio Code (press ```Ctrl + ` ``` (or  ```Cmd + ` ``` on macOS) and execute the following command:
+3. Once the repository is cloned and opened in the dev container, run the project by opening a terminal in Visual Studio Code (press ```Ctrl + ` ``` (or  ```Cmd + ` ``` on macOS) and execute the following command:
 
    ```shell
    npm run dev
    ```
-5. Click the link to the http://localhost:5173/ address to open a browser to the running Vue app.  
-6. Use the "Run" navigation link after reading the Quick Start information on the home page.
+4. Click the link to the http://localhost:5173/ address to open a browser to the running Vue app.  
+5. Use the "Run" navigation link after reading the Quick Start information on the home page.
 
 ## To Exit
 
