@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import optimizelySdk from '@optimizely/optimizely-sdk'
 
-const optimizelyClient = optimizelySdk.createInstance({ sdkKey: 'K4UmaV5Pk7cEh2hbcjgwe' })
+const optimizelyClient = optimizelySdk.createInstance({ sdkKey: 'Jm4Qre4K2uNtdPT7TKs4v' })
 if (optimizelyClient === null) {
   throw new Error('Optimizely instance is null')
 }
